@@ -1,0 +1,54 @@
+{
+	"site_name": "ГЕГЕМОНИЯ СПИДА",
+	"site_logo": "logo.png",
+	"dependencies":
+	[
+		"Html"
+	],
+	"head":
+	[
+			{"plain": "<meta charset='utf-8'>"},
+			{"raw": "bootstrap.htmls"},
+			{"style": "style.css"},
+			{"script": "script.js"},
+	],
+	"body":
+	[
+		{"from_js": "navbar.js"}
+	],
+	"pages": 
+	[
+		{
+		"page_name": "Главная",
+		"page_id": "index",
+		"page_head": 
+		[
+			{"comment": "Die from AIDS!"}
+		],
+		"page_content": 
+		[
+			{"from_js": "index.js"},
+			{"plain": "<b>Hello World, Bitches!</b>"},
+			{"comment": "That's it!"}
+		]
+		},
+
+		{
+		"page_name": "О группе",
+		"page_id": "about",
+		"page_head": 
+		[
+			{"inherit": "index"}
+		],
+		"page_content": 
+		[
+			{"from_js": "about.js"},
+			{"comment": "Hey you!"}
+		]
+		}
+	],
+	"footer":
+	[
+		{"plain": "<pre>Copyleft 2228</pre>"}
+	]
+}
